@@ -1,0 +1,11 @@
+{
+	"deps":"./src",
+	"rely":["./src"],
+	"caches":["./login.html"],
+	"cachepath":"./index.appcache",
+	"less":"./less/",
+	"style":"./style/",
+	"script":"./script/",
+	"utils":"./src/utils/",
+	"zepto":"./src/zepto/"
+}

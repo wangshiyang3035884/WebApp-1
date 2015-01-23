@@ -1,0 +1,40 @@
+[2015-01-15 18:26:51.751] [INFO] logger - 服务开启
+[2015-01-15 18:27:20.667] [INFO] logger - [ReferenceError: SON is not defined]
+ReferenceError: SON is not defined
+    at UsersAction.servlet (D:\WebApp\src\controller\ctlrouter.js:34:27)
+    at UsersAction.ActionSupport.execute (D:\WebApp\src\struts\ActionSupport.js:21:15)
+    at UsersAction.landedAction.results.login (D:\WebApp\src\action\UsersAction.js:50:9)
+    at Query._callback (D:\WebApp\src\model\db\mysqldb.js:14:9)
+    at Query.Sequence.end (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:143:8)
+    at Query.EofPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:127:8)
+    at Protocol._parsePacket (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (D:\WebApp\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2015-01-15 18:28:12.466] [INFO] logger - 服务开启
+[2015-01-15 18:28:14.584] [INFO] logger - [ReferenceError: SON is not defined]
+ReferenceError: SON is not defined
+    at UsersAction.servlet (D:\WebApp\src\controller\ctlrouter.js:34:27)
+    at UsersAction.ActionSupport.execute (D:\WebApp\src\struts\ActionSupport.js:21:15)
+    at UsersAction.landedAction.results.login (D:\WebApp\src\action\UsersAction.js:50:9)
+    at Query._callback (D:\WebApp\src\model\db\mysqldb.js:14:9)
+    at Query.Sequence.end (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:143:8)
+    at Query.EofPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:127:8)
+    at Protocol._parsePacket (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (D:\WebApp\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2015-01-15 18:28:59.518] [INFO] logger - 服务开启
+[2015-01-15 18:29:01.516] [INFO] logger - [ReferenceError: SON is not defined]
+ReferenceError: SON is not defined
+    at UsersAction.servlet (D:\WebApp\src\controller\ctlrouter.js:34:27)
+    at UsersAction.ActionSupport.execute (D:\WebApp\src\struts\ActionSupport.js:21:15)
+    at UsersAction.landedAction.results.login (D:\WebApp\src\action\UsersAction.js:50:9)
+    at Query._callback (D:\WebApp\src\model\db\mysqldb.js:14:9)
+    at Query.Sequence.end (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:143:8)
+    at Query.EofPacket (D:\WebApp\node_modules\mysql\lib\protocol\sequences\Query.js:127:8)
+    at Protocol._parsePacket (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:271:23)
+    at Parser.write (D:\WebApp\node_modules\mysql\lib\protocol\Parser.js:77:12)
+    at Protocol.write (D:\WebApp\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+[2015-01-15 18:29:32.732] [INFO] logger - 服务开启

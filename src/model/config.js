@@ -1,0 +1,11 @@
+var path = require('path'); 
+var rootpath = path.dirname(path.dirname(__dirname)); 
+exports.STRUTS = 'initstruts';
+exports.CONNECTION = 'connection';
+exports.homepath = rootpath+'/www';
+exports.tplpath = rootpath+'/src/view'; 
+exports.logpath = rootpath+'/src/logs/log.log'; 
+exports.tplcpath = rootpath+'/www/html'; 
+exports.workerpath = './server/httpServer.js';
+exports.strutspath = rootpath+'/src/struts/struts.xml';
+exports.mime = {"css":"text/css","gif":"image/gif","html":"text/html","tpl":"text/plain","ejs":"text/plain","ico":"image/x-icon","jpeg":"image/jpeg","jpg":"image/jpeg","js":"text/javascript","json":"application/json","pdf":"application/pdf","png":"image/png","svg":"image/svg+xml","swf":"application/x-shockwave-flash","tiff":"image/tiff","txt":"text/plain","wav":"audio/x-wav","wma":"audio/x-ms-wma","wmv":"video/x-ms-wmv","xml":"text/xml","appcache":"text/cache-manifest","manifest":"text/cache-manifest"}; 

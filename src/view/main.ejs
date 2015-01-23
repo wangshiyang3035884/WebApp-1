@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>预订会议</title>  
+  <link type="text/css" rel="stylesheet" href="./style/main.min.css">
+  <script type="text/javascript" src="./script/libs/zepto.min.js"></script>
+  <!--
+  <script type="text/javascript" src="./src/utils/utils.js"></script> 
+  -->
+</head>
+<body>
+  <section> 
+    <div class="view-container">
+      <div id="main_view" class="main">
+        <div>
+          <div data-index="0" class="nav red">          
+          </div>
+          <div data-index="1" class="nav blue"></div>
+          <div data-index="2" class="nav yellow"></div>
+          <div data-index="3" class="nav black"></div>           
+        </div>     
+      </div>
+      <% include ./activity/order.ejs %>  
+      <% include ./activity/office.ejs %>
+      <% include ./activity/news.ejs %>
+      <% include ./activity/user.ejs %>                         	
+    </div>
+  </section> 
+  <script type="text/javascript" src="./script/main.min.js"></script>
+    <!--
+    <script type="text/javascript">
+       baofeng.utils.debug("./src/deps.js","baofeng.main",function(){
+        baofeng.login();
+       });
+    </script>   
+    -->
+</body>
+</html>
+

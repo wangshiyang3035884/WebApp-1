@@ -1,0 +1,11 @@
+{
+    "name": "MobileApp",
+    "version": "0.0.1",
+    "author": "Nxiao <363305175@qq.com>",
+    "description": "nodejs全栈案例",
+    "dependencies": {
+        "grunt-contrib-less": "*",
+        "grunt-contrib-uglify": "0.2.7",
+        "grunt-contrib-cssmin": "0.9.0"
+    }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<struts>	
+	<aop>
+		<pointcut id="adminpointcut" class="aspect.Verify"  method="adminverify" joinpoint="adminverify" advice="replace"/>
+	</aop>	
+	<action name="index" namespace="/" method="indexAction" class="action.UsersAction" pointcut="adminpointcut">
+		<result name="main" type="freemarker" param="user">/main.ejs</result>
+		<result name="login" type="forward">/login.html</result>
+	</action>
+	<action name="login" namespace="/" method="loginAction" class="action.UsersAction">
+		<result type="json"/>
+	</action>
+	<action name="landed" namespace="/" method="landedAction" class="action.UsersAction">
+		<result type="json"/>
+	</action>	
+	<action name="videolist" namespace="/" method="videoAction" class="action.UsersAction">
+		<result type="json"/>
+	</action>	
+</struts>
