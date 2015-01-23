@@ -4,7 +4,7 @@ Source Host: localhost
 Source Database: webapp
 Target Host: localhost
 Target Database: webapp
-Date: 2015/1/16 10:23:19
+Date: 2015/1/23 15:43:06
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -48,7 +48,7 @@ CREATE TABLE `user` (
   `type` int(11) NOT NULL DEFAULT '1',
   `remark` char(200) DEFAULT NULL,
   PRIMARY KEY (`uid`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records 
@@ -59,3 +59,4 @@ INSERT INTO `office` VALUES ('3', '3号', '5', '笔记本、多媒体电话', '1
 INSERT INTO `user` VALUES ('1', '宁肖', '933b49e5484462597167accd5270482e', '1', null);
 INSERT INTO `user` VALUES ('6', '李金鹏', '933b49e5484462597167accd5270482e', '1', null);
 INSERT INTO `user` VALUES ('7', 'nxiao', '933b49e5484462597167accd5270482e', '1', null);
+INSERT INTO `user` VALUES ('8', 'nxiao', '933b49e5484462597167accd5270482e', '1', null);
